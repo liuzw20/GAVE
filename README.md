@@ -68,14 +68,6 @@ Install requirements using `requirements.txt`.
 pip3 install -r requirements.txt
 ```
 
-```sh
-sudo dnf install clang
-```
-
-Install Python version 3.10.10.
-```sh
-CC=clang pyenv install -v 3.10.10
-```
 
 ### :wrench: Preparing Dataset
 
