@@ -17,7 +17,8 @@ This is the official repository of the paper ["Dataset, Baseline and Evaluation 
 
 ## :pushpin: Data format
 
-![fig2](D:\typora_pic\fig2.PNG)
+![fig2](![fig2](https://github.com/user-attachments/assets/7568ccc4-f4d9-4d31-92ca-0a076528ad6f)
+)
 
 * Segmentation: Above is an example of our provided arteriovenous labels. Our code always expects the images to be RGB images with pixel values in the range [0, 255] and the labels to be RGB images with the following segmentation maps in each channel:
 
@@ -33,7 +34,8 @@ This is the official repository of the paper ["Dataset, Baseline and Evaluation 
 
 Here's an example of a model prediction, its RGB channels represents artery, vessel and vein respectively.
 
-![fig_example](D:\typora_pic\fig_example.png)
+![fig_example](![fig_example](https://github.com/user-attachments/assets/848e896c-1eb4-4f70-a1a8-c79e9d8aeb03)
+)
 
 
 
