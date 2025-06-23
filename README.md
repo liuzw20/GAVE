@@ -2,7 +2,7 @@
 
 # GAVE
 
-This is the official repository of the paper ["Dataset, Baseline and Evaluation Design for GAVE Challenge"](), which is the baseline of MICCAI2025 Challenge: ["Generalized Analysis of Vessels in Eye (GAVE)"](https://aistudio.baidu.com/competition/detail/1315)
+This is the official repository of the paper ["Dataset, Baseline and Evaluation Design for GAVE Challenge"](), which is the baseline of GAVE Challenge in the 12th OMIA workshop at MICCAI 2025: ["Generalized Analysis of Vessels in Eye (GAVE)"](https://aistudio.baidu.com/competition/detail/1315).
 
 
 
