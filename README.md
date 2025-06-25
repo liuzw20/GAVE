@@ -106,7 +106,7 @@ The dataset provided in the preliminary stage consists of 100 images, among whic
 You can preprocess the images offline using the `preprocess.py` script which in the directory `Code/Tool/`. The script will enhance the images and masks and save them in the specified directory.
 
 ```bash
-python preprocess.py --i data/images/ --m data/masks/ --s data/enhanced
+python preprocess.py --i <path_to_the_images> --m <path_to_the_images-ROI_mask> --s <path_to_save_enhanced_images>
 ```
 
 
