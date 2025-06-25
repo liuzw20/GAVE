@@ -118,7 +118,7 @@ python preprocess.py --i <path_to_the_images> --m <path_to_the_images-ROI_mask> 
 All training code can be found through the entrance of training script `train.py`, and the configuration file, with all the hyperparameters and command line arguments, is `cfg.py`.
 
 ```bash
-python train.py --dataset GAVE --model RRWNet --version trainv0
+python train.py --dataset GAVE --model GAVENet --version trainv0
 ```
 Training logs, model.py, learning curve and best/latest weights will be saved under the `Log/ directory`. You can use `--version` parameter to specify the training id  for your train directory name. More parameter pls refer to `cfg.py`.
 
