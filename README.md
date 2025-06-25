@@ -74,12 +74,16 @@ pip3 install -r requirements.txt
 You can download the GAVE dataset through the ["GAVE challenge"](https://aistudio.baidu.com/competition/detail/1315) on AI studio. Put the dataset in the `./Data`. The dataset directory structure is following:
 ```sh
 |-Data
-	|-GAVE
-		|-training
-			|-av   		# artery/vein label
-			|-images	# color fundus images
-			|-masks		# ROI masks
+|	|-GAVE
+|		|-training
+|		|	|-av   		# artery/vein label
+|		|	|-images	# color fundus images
+|		|	|-masks		# ROI masks
+|		|	|-AVR.txt	# AVR label
+|		|-validation
+|			|-images	# color fundus images
 ```
+The dataset provided in the preliminary stage consists of 100 images, among which the first 50 (g_001.png - g_050.png) are used for training, including color fundus photos, arteriovenous labels, and AVR labels. The remaining 50 (g_051.png - g_100.png) are used for validation and only contain fundus color photos. Since the latter 50 images do not contain arteriovenous labels, if you want to use the baseline code we provided for training, please disable the test code during training. After the training is completed, make predictions on the validation set.
 
 ### :telescope: Project structure
 
