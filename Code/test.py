@@ -11,7 +11,7 @@ parser.add_argument('-d', '--dataset', default='Unknown')
 parser.add_argument('-p', '--pred_path', type=str, default=None, help='Path to the predicted images')
 parser.add_argument('-g', '--gt_path', type=str, default=None, help='Path to the ground truth images')
 parser.add_argument('-m', '--mask_path', type=str, default=None, help='Path to the ROI masks')
-parser.add_argument('-n', '--n_paths', type=int, default=100)  # 1000 for formal testing, regarding to times consumption
+parser.add_argument('-n', '--n_paths', type=int, default=100)  # 100 for formal testing, regarding to times consumption
 parser.add_argument('-s', '--shape', type=str, default=None, help='Shape of the images for the evaluation. Format: "heightxwidth"')
 parser.add_argument('--overwrite', action='store_true', help='Overwrite existing results')
 parser.add_argument('--results_dir', type=str, default='../Log/Metric')
