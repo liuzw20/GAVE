@@ -149,7 +149,7 @@ You can always run `python test.py --help` to see the available options.
 
 ##  :microscope:AVR measurement
 Following the clinical experience of ophthalmologists, we used the arteriovenous diameter top4 at the optic disc edge to calculate AVR. Specifically, in baseline, we used the official pre-trained MNet to segment the optic disc and extract the contour, and then overlapped with the previously segmented arteriovenous vessels to extract the arteriovenous diameters of the optic disc edge and took the first four thickest diameters to calculate AVR. The implementation of MNet is available on ["MNet_DeepCDR"](https://github.com/HzFu/MNet_DeepCDR) and will not be described here.
-We provide an example code "AVR.ipynb " for AVR measurement for you reference. 
+We provide an example code "AVR.ipynb " for AVR measurement for your reference. 
 
 
 
