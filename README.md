@@ -4,7 +4,8 @@
 
 This is the official repository of the paper ["Dataset, Baseline and Evaluation Design for GAVE Challenge"](), which is the baseline of GAVE Challenge in the 12th OMIA workshop at MICCAI 2025: ["Generalized Analysis of Vessels in Eye (GAVE)"](https://aistudio.baidu.com/competition/detail/1315).
 
-
+	
+:eyes: The poster of our paper now is available! [GAVE poster](https://github.com/user-attachments/files/22839576/GAVE_poster.pdf)
 
 
 ## :star2: Highlights
@@ -162,4 +163,5 @@ If you have any questions or problems with the code or the paper, please do not 
 ## :thumbsup: Acknowledge
 Our project code is built based on the [rrwnet](https://github.com/j-morano/rrwnet) project. The authors' outstanding work, code  and  kind help are gratefully acknowledged.
 We also thanks the authors of  ["MNet_DeepCDR"](https://github.com/HzFu/MNet_DeepCDR) .
+
 
